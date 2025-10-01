@@ -50,7 +50,7 @@ const MyAppBar = ({ logo }) => {
           ) : (
             <div>
               <MyButton
-                classes={"ms-2"}
+                classes={"ms-0"}
                 text="Create Account"
                 color={colors.primary}
                 backgroundColor={colors.secondary}
@@ -59,7 +59,7 @@ const MyAppBar = ({ logo }) => {
                 hoverBackgroundColor={colors.primary}
               />
               <MyButton
-                classes={"ms-2"}
+                classes={"ms-0"}
                 text="Sign In"
                 color={colors.secondary}
                 backgroundColor={colors.primary}

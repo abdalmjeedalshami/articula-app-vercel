@@ -23,7 +23,7 @@ const WelcomeSection = ({ title, subtitle, image }) => {
         >
           <h1 className="fw-bold">{title}</h1>
           <p style={{ color: colors.textMuted.welcome }}>{subtitle}</p>
-          <div>
+          <div className="d-flex">
             <MyButton
               classes="me-2"
               text={isArabic ? "ابدأ القراءة" : "Start Reading"}
